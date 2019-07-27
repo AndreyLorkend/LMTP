@@ -1,0 +1,30 @@
+@media (min-width:1920px) {
+    .container {
+        min-width: 1600px !important;
+    }
+}
+
+@media (min-width:1440px) {
+    .container {
+        max-width: 1400px !important;
+    }
+}
+
+@media (max-width: 1440px) {
+    .lt-grid-blog {
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .lt-grid-blog {
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+}
+
+@media (max-width:320px) {    
+    .blog-post-img {
+        height: 290px !important;
+    }
+}
+
