@@ -1,0 +1,79 @@
+/* Default theme */
+[data-color-box="default"] {
+    background-color: #31364a !important;
+}
+
+[data-color-box-pseudo="default"]::after {
+    background-color: #31364a !important;
+}
+
+[data-color-header="default"] {
+    background-color: #1b1e2b !important;
+    color: #f0f0f0 !important;
+}
+
+[data-color-box-alt="default"] {
+    background-color: #282c3d !important;
+}
+
+[data-color-text="default"] {
+    color: #f0f0f0 !important;
+}
+
+[data-color-footer="default"] {
+    background-color: #1b1e2b !important;
+}
+
+.grey[data-color-box="default"] {
+    background-color: #282c3d !important;
+}
+
+[data-color-header-img="default"]::before {
+    background:linear-gradient(205deg,#1b1e2b 4%,#282c3d 90%) !important;
+}
+
+[data-color-box-border="default"] {
+    border-color: #31364a !important;
+}
+    
+
+
+/* Dark theme */
+
+[data-color-box="darkTheme"] {
+    background-color: #333 !important;
+}
+
+[data-color-box-pseudo="darkTheme"]::after {
+    background-color: #333 !important;
+}
+
+
+[data-color-header="darkTheme"] {
+    background-color: #111!important;
+    color: #f0f0f0 !important;
+}
+
+[data-color-box-alt="darkTheme"] {
+    background-color: #222 !important;
+}
+
+[data-color-text="darkTheme"] {
+    color: #f0f0f0 !important;
+}
+
+[data-color-footer="darkTheme"] {
+    background-color: #111 !important;
+}
+
+.grey[data-color-box="darkTheme"] {
+    background-color:#222 !important;
+}
+  
+[data-color-header-img="darkTheme"]::before{
+    background:linear-gradient(205deg,#555 4%,#222 90%) !important;
+}
+
+[data-color-box-border="darkTheme"] {
+    border-color: #333 !important;
+}
