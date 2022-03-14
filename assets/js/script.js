@@ -1,4 +1,3 @@
-function App () {
     function logoPreAnimation () {
         var logo = document.getElementById("logo");
         var logoValue = logo.textContent.trim();
@@ -305,5 +304,3 @@ function App () {
     Scroll();
     chessBg();   
 }
-
-App();
